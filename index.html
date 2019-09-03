@@ -7,25 +7,63 @@
     said to add a reset so im just going to put this here for good measure -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!--bootstrap-->
+    <link rel="stylesheet" href="assets\css\style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>                                        <!--jquery-->
 	<script type="text/javascript" src="assets\javascript\game.js"></script>                                   <!--javascript-->
 
 </head>
 <body>
-    <h1> info about game, this will be a big box</h1>
+    <div id="name">
+        <h1 id="name-one">CRYSTAL COLLECTOR</h1>
+    </div>
+    <h1 id ="info"> You will be given a random number at the beginning of the game.<br><br>
+
+                    There are four Crystals below, by clicking on a Crystal you will<br>
+                    add a specific amount of points to your Total.<br><br>
+
+                    You win the game by matching your Total to the Target number.<br>
+                    You lose the game if your Total goes above the Target number.<br><br>
+
+                    The value of each Crystal is hidden from you until you click on them.<br><br>
+
+                    Each time the game restarts, the value of the Target and your Crystals will change.<br><br>
+
+                    Good Luck!
+    </h1>
     <h1 id = "numberToGuess">NUMBER TO GUESS: </h1>
     <h2 id = "wins">WINS: </h2>
     <h2 id = "losses">LOSSES: </h2>
-    <h2 id = "total">TOTAL: </h2>
-
     <button id="new-game" >NEW GAME</button>
 
-    <div>
-        <button id="c1" class="crystal-button">C1 - </button>
-        <button id="c2" class="crystal-button">C2 - </button>
-        <button id="c3" class="crystal-button">C3 - </button>
-        <button id="c4" class="crystal-button">C4 - </button>
-    </div>
+
+
+
+
+    <div class="crystalButtons">
+		
+			<p class="subtitle">Click on the Crystals to Play!</p>
+			<br/>
+			<img src="assets\images\red_crystal.jpg" id="c1" class ="crystals" width="100" height="100" />
+			<br/>
+			<img src="assets\images\blue_crystal_1.jpg" id="c2" class ="crystals" width="100" height="100" />
+			<br/>
+			<img src="assets\images\yellow_crystal.jpg" id="c3" class ="crystals" width="100" height="100" />
+			<br/>
+			<img src="assets\images\green_crystal.jpg" id="c4" class ="crystals" width="100" height="100" />
+        </div>
+        
+        <div>
+        
+            <h2 id = "total">TOTAL: </h2>
+
+        </div>
+
+
+
+
+
+
+
     <script></script>
 
 

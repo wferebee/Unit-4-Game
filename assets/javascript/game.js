@@ -34,8 +34,8 @@ $(document).ready(function() {
         var losses=0;
     
         $('#wins').text("WINS: " + wins);               // pushes these variables to their respecful html elements
-        $('#losses').text("LOSSES:" + losses);
-    
+        $('#losses').text("LOSSES: " + losses);
+        $('#total').text("TOTAL: " + total);
     //---------------------------
     
             $('#c1').on('click', function(){        //      button number 1
